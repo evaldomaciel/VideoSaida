@@ -1,0 +1,533 @@
+﻿
+==============================================
+ NORMALIZACAO + CONCATENACAO DE VIDEOS DO IPHONE
+==============================================
+
+Buscando videos em D:\VideosCurtos...
+Encontrados: 255 videos
+
+
+Ordenando cronologicamente (com.apple.quicktime.creationdate)...
+Relatorio da ordem: C:\VideoSaida\ordem_videos.txt
+
+==============================================
+ ETAPA 1/2: NORMALIZANDO 255 CLIPES (GTX 1050 / hevc_nvenc)
+==============================================
+
+
+Normalizados com sucesso: 255 de 255
+
+==============================================
+ ETAPA 2/2: CONCATENANDO (stream copy, sem perda)
+==============================================
+
+powershell : Input #0, concat, from 'C:\VideoSaida\lista_concat.txt':
+No linha:1 caractere:302
++ ... tch {} } }; powershell -NoProfile -ExecutionPolicy Bypass -File "C:\V ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Input #0, conca...ta_concat.txt'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Duration: N/A, start: -0.023220, bitrate: 18587 kb/s
+  Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv, bt709, progressive), 1440x1920 [SAR 1:1 DAR 
+3:4], 18415 kb/s, 60 fps, 60 tbr, 15360 tbn
+    Metadata:
+      creation_time   : 2022-11-08T10:44:45.000000Z
+      handler_name    : Core Media Video
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.56.100 hevc_nvenc
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 172 kb/s
+    Metadata:
+      creation_time   : 2022-11-08T10:44:45.000000Z
+      handler_name    : Core Media Audio
+      vendor_id       : [0][0][0][0]
+Output #0, mp4, to 'C:\VideoSaida\VideosConcatenados.mp4':
+  Metadata:
+    encoder         : Lavf59.35.100
+  Stream #0:0(und): Video: hevc (Main) (hev1 / 0x31766568), yuv420p(tv, bt709, progressive), 1440x1920 [SAR 1:1 DAR 
+3:4], q=2-31, 18415 kb/s, 60 fps, 60 tbr, 15360 tbn
+    Metadata:
+      creation_time   : 2022-11-08T10:44:45.000000Z
+      handler_name    : Core Media Video
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc59.56.100 hevc_nvenc
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 172 kb/s
+    Metadata:
+      creation_time   : 2022-11-08T10:44:45.000000Z
+      handler_name    : Core Media Audio
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 99328, current: 99313; changing to 99329. 
+This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 138225, current: 138209; changing to 
+138226. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 280545, current: 280520; changing to 
+280546. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 338888, current: 338864; changing to 
+338889. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 551856, current: 551823; changing to 
+551857. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 741263, current: 741233; changing to 
+741264. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 925553, current: 925527; changing to 
+925554. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1220545, current: 1220512; changing to 
+1220546. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1315744, current: 1315724; changing to 
+1315745. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1435532, current: 1435500; changing to 
+1435533. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1479532, current: 1479512; changing to 
+1479533. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1580888, current: 1580766; changing to 
+1580889. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1678046, current: 1678007; changing to 
+1678047. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1787575, current: 1786787; changing to 
+1787576. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1896355, current: 1895567; changing to 
+1896356. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 1992847, current: 1992499; changing to 
+1992848. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2096947, current: 2096928; changing to 
+2096948. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2204448, current: 2204444; changing to 
+2204449. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2337564, current: 2336656; changing to 
+2337565. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2467728, current: 2467545; changing to 
+2467729. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2566873, current: 2566020; changing to 
+2566874. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2601860, current: 2601080; changing to 
+2601861. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2721666, current: 2721605; changing to 
+2721667. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2821957, current: 2821624; changing to 
+2821958. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 2921976, current: 2921584; changing to 
+2921977. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3026032, current: 3026013; changing to 
+3026033. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3130461, current: 3130442; changing to 
+3130462. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3256394, current: 3255510; changing to 
+3256395. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3388630, current: 3387942; changing to 
+3388631. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3519014, current: 3518081; changing to 
+3519015. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3638913, current: 3638033; changing to 
+3638914. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 3758865, current: 3757985; changing to 
+3758866. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4090579, current: 4089838; changing to 
+4090580. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4220910, current: 4220286; changing to 
+4220911. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4325758, current: 4325465; changing to 
+4325759. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4430937, current: 4430644; changing to 
+4430938. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4537140, current: 4536484; changing to 
+4537141. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4629668, current: 4629226; changing to 
+4629669. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4722410, current: 4721880; changing to 
+4722411. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4845784, current: 4845360; changing to 
+4845785. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4879152, current: 4878876; changing to 
+4879153. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 4912668, current: 4912392; changing to 
+4912669. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 5112572, current: 5111695; changing to 
+5112573. This may result in incorrect timestamps in the output file.
+frame= 7019 fps=0.0 q=-1.0 size=  215552kB time=00:01:57.92 bitrate=14974.5kbits/s speed= 236x    
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 5199759, current: 5199278; changing to 
+5199760. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 5423010, current: 5422718; changing to 
+5423011. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 5662595, current: 5662372; changing to 
+5662596. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 5788324, current: 5788101; changing to 
+5788325. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 5908933, current: 5907965; changing to 
+5908934. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6017533, current: 6016745; changing to 
+6017534. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6126313, current: 6126289; changing to 
+6126314. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6329041, current: 6328973; changing to 
+6329042. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6524557, current: 6524468; changing to 
+6524558. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6560308, current: 6560233; changing to 
+6560309. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6666729, current: 6666646; changing to 
+6666730. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6794646, current: 6794580; changing to 
+6794647. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6851924, current: 6851866; changing to 
+6851925. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 6898970, current: 6898906; changing to 
+6898971. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7003354, current: 7002541; changing to 
+7003355. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7132589, current: 7132107; changing to 
+7132590. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7265227, current: 7264672; changing to 
+7265228. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7365024, current: 7364632; changing to 
+7365025. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7488536, current: 7488112; changing to 
+7488537. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7619184, current: 7618339; changing to 
+7619185. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7748387, current: 7747817; changing to 
+7748388. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7846121, current: 7845719; changing to 
+7846122. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 7934807, current: 7933831; changing to 
+7934808. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 8387882, current: 8387473; changing to 
+8387883. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 8494993, current: 8494783; changing to 
+8494994. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 8685251, current: 8685148; changing to 
+8685252. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 8774236, current: 8773260; changing to 
+8774237. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 8904332, current: 8904149; changing to 
+8904333. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 8975829, current: 8974930; changing to 
+8975830. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 9102930, current: 9102820; changing to 
+9102931. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 9225700, current: 9225639; changing to 
+9225701. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 9617479, current: 9616659; changing to 
+9617480. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 9875935, current: 9875379; changing to 
+9875936. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 9969587, current: 9969003; changing to 
+9969588. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10068331, current: 10067699; changing to 
+10068332. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10125043, current: 10125029; changing to 
+10125044. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10221285, current: 10220506; changing to 
+10221286. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10316762, current: 10315894; changing to 
+10316763. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10403958, current: 10403565; changing to 
+10403959. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10526445, current: 10525634; changing to 
+10526446. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10650562, current: 10650261; changing to 
+10650563. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10738325, current: 10737579; changing to 
+10738326. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10805163, current: 10804523; changing to 
+10805164. This may result in incorrect timestamps in the output file.
+frame=14655 fps=14647 q=-1.0 size=  451840kB time=00:04:05.77 bitrate=15060.5kbits/s speed= 246x    
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 10871083, current: 10871026; changing to 
+10871084. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11019506, current: 11019496; changing to 
+11019507. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11031784, current: 11031712; changing to 
+11031785. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11076768, current: 11076694; changing to 
+11076769. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11082838, current: 11082574; changing to 
+11082839. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11248462, current: 11248390; changing to 
+11248463. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11455238, current: 11455175; changing to 
+11455239. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11509447, current: 11509374; changing to 
+11509448. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11583102, current: 11583021; changing to 
+11583103. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11737645, current: 11737547; changing to 
+11737646. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11812299, current: 11811679; changing to 
+11812300. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 11886431, current: 11885899; changing to 
+11886432. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12001611, current: 12001265; changing to 
+12001612. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12116977, current: 12116719; changing to 
+12116978. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12235503, current: 12234863; changing to 
+12235504. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12353647, current: 12352963; changing to 
+12353648. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12475843, current: 12475473; changing to 
+12475844. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12598353, current: 12598071; changing to 
+12598354. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12703543, current: 12702809; changing to 
+12703544. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12808281, current: 12807458; changing to 
+12808282. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12848418, current: 12848339; changing to 
+12848419. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 12951763, current: 12951445; changing to 
+12951764. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13054869, current: 13054639; changing to 
+13054870. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13140655, current: 13140017; changing to 
+13140656. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13226033, current: 13225527; changing to 
+13226034. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13353527, current: 13353417; changing to 
+13353528. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13481417, current: 13481307; changing to 
+13481418. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13609307, current: 13608580; changing to 
+13609308. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13736580, current: 13736382; changing to 
+13736581. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13819326, current: 13819158; changing to 
+13819327. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13902102, current: 13901625; changing to 
+13902103. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 13987641, current: 13987532; changing to 
+13987642. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14073548, current: 14073527; changing to 
+14073549. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14202551, current: 14202520; changing to 
+14202552. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14331544, current: 14331424; changing to 
+14331545. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14460448, current: 14459667; changing to 
+14460449. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14549779, current: 14549763; changing to 
+14549780. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14639875, current: 14639771; changing to 
+14639876. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14749339, current: 14748919; changing to 
+14749340. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 14878967, current: 14878279; changing to 
+14878968. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15007303, current: 15006522; changing to 
+15007304. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15108922, current: 15108217; changing to 
+15108923. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15210617, current: 15210000; changing to 
+15210618. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15319568, current: 15318751; changing to 
+15319569. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15428319, current: 15427502; changing to 
+15428320. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15728930, current: 15728867; changing to 
+15728931. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15833315, current: 15833237; changing to 
+15833316. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 15947925, current: 15947059; changing to 
+15947926. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16026931, current: 16026836; changing to 
+16026932. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16216276, current: 16216201; changing to 
+16216277. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16256137, current: 16256067; changing to 
+16256138. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16370755, current: 16370727; changing to 
+16370756. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16485415, current: 16485387; changing to 
+16485416. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16563211, current: 16563135; changing to 
+16563212. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16651199, current: 16651115; changing to 
+16651200. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16781163, current: 16781078; changing to 
+16781164. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16856854, current: 16856798; changing to 
+16856855. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 16980702, current: 16980631; changing to 
+16980703. This may result in incorrect timestamps in the output file.
+frame=23064 fps=15370 q=-1.0 size=  725504kB time=00:06:26.82 bitrate=15364.5kbits/s speed= 258x    
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17116823, current: 17116768; changing to 
+17116824. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17255008, current: 17254933; changing to 
+17255009. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17340949, current: 17340884; changing to 
+17340950. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17509844, current: 17509787; changing to 
+17509845. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17626523, current: 17626432; changing to 
+17626524. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17741120, current: 17741092; changing to 
+17741121. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17814820, current: 17814739; changing to 
+17814821. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17888467, current: 17888386; changing to 
+17888468. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17933442, current: 17933368; changing to 
+17933443. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 17978424, current: 17978350; changing to 
+17978425. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 18177006, current: 18176932; changing to 
+18177007. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 18375588, current: 18375514; changing to 
+18375589. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 18589530, current: 18589443; changing to 
+18589531. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 18803459, current: 18803372; changing to 
+18803460. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 18882220, current: 18882135; changing to 
+18882221. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 18960983, current: 18960898; changing to 
+18960984. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19266964, current: 19266908; changing to 
+19266965. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19350876, current: 19350786; changing to 
+19350877. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19547394, current: 19547296; changing to 
+19547395. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19587232, current: 19587162; changing to 
+19587233. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19625050, current: 19624956; changing to 
+19625051. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19665916, current: 19665837; changing to 
+19665917. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19802029, current: 19801974; changing to 
+19802030. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 19966838, current: 19966776; changing to 
+19966839. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20058936, current: 20058857; changing to 
+20058937. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20162281, current: 20162183; changing to 
+20162282. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20265607, current: 20265509; changing to 
+20265608. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20442661, current: 20441909; changing to 
+20442662. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20619061, current: 20618309; changing to 
+20619062. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20827591, current: 20827505; changing to 
+20827592. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20857201, current: 20857140; changing to 
+20857202. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20860212, current: 20859566; changing to 
+20860213. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20870830, current: 20870767; changing to 
+20870831. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20986479, current: 20986397; changing to 
+20986480. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 20995613, current: 20995526; changing to 
+20995614. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21004742, current: 21004655; changing to 
+21004743. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21212527, current: 21212454; changing to 
+21212528. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21420326, current: 21420253; changing to 
+21420327. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21450973, current: 21450903; changing to 
+21450974. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21471383, current: 21471321; changing to 
+21471384. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21569625, current: 21569532; changing to 
+21569626. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21721202, current: 21721118; changing to 
+21721203. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21786654, current: 21786562; changing to 
+21786655. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21895106, current: 21895048; changing to 
+21895107. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21898120, current: 21897606; changing to 
+21898121. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21924230, current: 21924154; changing to 
+21924231. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 21952826, current: 21952819; changing to 
+21952827. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22068531, current: 22068449; changing to 
+22068532. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22214881, current: 22214817; changing to 
+22214882. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22235297, current: 22235235; changing to 
+22235298. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22281315, current: 22281231; changing to 
+22281316. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22389775, current: 22389717; changing to 
+22389776. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22466517, current: 22466451; changing to 
+22466518. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22566803, current: 22566734; changing to 
+22566804. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22616910, current: 22616832; changing to 
+22616911. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22734592, current: 22734535; changing to 
+22734593. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 22838983, current: 22838920; changing to 
+22838984. This may result in incorrect timestamps in the output file.
+frame=30897 fps=14659 q=-1.0 size=  991488kB time=00:08:38.02 bitrate=15679.2kbits/s speed= 246x    
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23027336, current: 23027271; changing to 
+23027337. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23132743, current: 23132670; changing to 
+23132744. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23219710, current: 23219400; changing to 
+23219711. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23306440, current: 23306145; changing to 
+23306441. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23358369, current: 23358271; changing to 
+23358370. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23577871, current: 23577801; changing to 
+23577872. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23795913, current: 23795831; changing to 
+23795914. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23840755, current: 23840666; changing to 
+23840756. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23890760, current: 23890675; changing to 
+23890761. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23893747, current: 23893453; changing to 
+23893748. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 23937485, current: 23937421; changing to 
+23937486. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24009101, current: 24009039; changing to 
+24009102. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24062287, current: 24062224; changing to 
+24062288. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24197000, current: 24196935; changing to 
+24197001. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24233799, current: 24233714; changing to 
+24233800. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24301298, current: 24301231; changing to 
+24301299. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24450735, current: 24450642; changing to 
+24450736. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24553042, current: 24552954; changing to 
+24553043. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24689146, current: 24689091; changing to 
+24689147. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24815043, current: 24814952; changing to 
+24815044. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24848744, current: 24848689; changing to 
+24848745. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 24898865, current: 24898787; changing to 
+24898866. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 25112803, current: 25112716; changing to 
+25112804. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 25130124, current: 25130047; changing to 
+25130125. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 25250879, current: 25250793; changing to 
+25250880. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Non-monotonous DTS in output stream 0:1; previous: 25300969, current: 25300891; changing to 
+25300970. This may result in incorrect timestamps in the output file.
+[mp4 @ 0000023154de1580] Starting second pass: moving the moov atom to the beginning of the file
+frame=34279 fps=8843 q=-1.0 Lsize= 1111913kB time=00:09:34.69 bitrate=15849.9kbits/s speed= 148x    
+video:1100124kB audio:11121kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.060023%
+
+==============================================
+ CONCLUIDO COM SUCESSO
+==============================================
+
+Arquivo final: C:\VideoSaida\VideosConcatenados.mp4
+Tamanho: 1,06 GB
+Relatorio da ordem: C:\VideoSaida\ordem_videos.txt
+Clipes normalizados (intermediarios): C:\VideoSaida\Normalizados
